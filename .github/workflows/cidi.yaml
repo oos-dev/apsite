@@ -12,3 +12,6 @@ jobs:
       - name: Pinta el mensaje
         run: |
           echo "!Hola Pato¡"
+      - name: Dime la fecha
+        run: date
+      - run: ls -l
