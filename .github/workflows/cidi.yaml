@@ -1,0 +1,14 @@
+name: Implementación Actions
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  nombre_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pinta el mensaje
+        run: |
+          echo "!Hola Pato¡"
